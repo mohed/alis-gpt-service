@@ -13,7 +13,7 @@ const App = () => {
     baseURL: "https://api.openai.com/v1",
     headers: {
       Authorization:
-        "Bearer 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",
+        "Bearer " + process.env.REACT_APP_OPENAI_API_KEY,
     },
   });
 
